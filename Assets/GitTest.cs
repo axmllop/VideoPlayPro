@@ -2,15 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GitTest : MonoBehaviour {
+public class GitTest : MonoBehaviour
+{
+    private void Start()
+    {
+        print("更新了脚本");
+    }
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
